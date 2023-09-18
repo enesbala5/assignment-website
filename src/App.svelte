@@ -197,7 +197,7 @@
 			</div>
 
 			<div class="text-white mt-6 text-sm font-medium">
-				<section class="flex items-center flex-col lg:flex-row space-y-3 md:space-x-6">
+				<section class="flex items-center flex-col lg:flex-row space-y-3 md:space-y-0 md:space-x-6">
 					{#each navItems as item}
 						<a href={item.href} class="">{item.name}</a>
 					{/each}
